@@ -1,16 +1,16 @@
-.py-base{
+.py-base {
   padding-block: var(--py-base);
 }
 
-.py-lg{
+.py-lg {
   padding-block: var(--py-lg);
 }
 
-.py-xl{
+.py-xl {
   padding-block: var(--py-xl);
 }
 
-.px-lg{
+.px-lg {
   padding-inline: var(--px-lg);
 }
 
@@ -25,17 +25,29 @@
   display: none;
 }
 
-.even-columns{
+.even-columns {
   display: grid;
   gap: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
 @media (width >= 80em) {
-  .container{
+  .container {
     --max-width: 80rem;
   }
 
-  .desktop-only{
+  .desktop-only {
     display: initial;
   }
 
